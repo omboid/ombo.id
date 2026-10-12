@@ -1,0 +1,19 @@
+services:
+  fotolari-web:
+    build: .
+    container_name: fotolari_app
+    restart: unless-stopped
+    ports:
+      - "3000:3000"
+    environment:
+      - NODE_ENV=production
+      - PORT=3000
+      - ADMIN_KEY=kunci_rahasia_admin_kamu
+      - FACE_THRESHOLD=0.40
+      - OCR_MIN_CONF=0.45
+      - ORGANIZER_WA=6281274567890
+    volumes:
+      - uploads_data:/app/uploads
+
+volumes:
+  uploads_data:

@@ -1,0 +1,20 @@
+@import "tailwindcss";
+
+@keyframes logo-smooth-pulse {
+  0%, 100% {
+    transform: scale(1);
+    opacity: 1;
+    filter: drop-shadow(0 0 0px rgba(0, 159, 227, 0));
+  }
+  50% {
+    transform: scale(1.035);
+    opacity: 0.94;
+    filter: drop-shadow(0 0 14px rgba(0, 159, 227, 0.8));
+  }
+}
+
+.animate-pulse-smooth {
+  animation: logo-smooth-pulse 2.8s cubic-bezier(0.4, 0, 0.2, 1) infinite;
+  transform-box: fill-box;
+  transform-origin: center;
+}

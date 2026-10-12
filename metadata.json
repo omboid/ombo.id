@@ -1,0 +1,6 @@
+{
+  "name": "ombo.id - AI Marathon Photo Marketplace & Face Search",
+  "description": "Platform pencarian foto lari pintar ombo.id dengan OCR nomor bib dada, pencarian wajah selfie AI, galeri ber-watermark, dan pembayaran via WhatsApp.",
+  "requestFramePermissions": ["camera"],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

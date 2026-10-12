@@ -1,0 +1,106 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 500 500" width="100%" height="100%">
+  <!-- Transparent background outside circle -->
+  <defs>
+    <style>
+      @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@800;900&amp;family=Caveat:wght@700&amp;display=swap');
+      .ombo-title {
+        font-family: 'Caveat', 'Brush Script MT', cursive, sans-serif;
+        font-weight: 700;
+        fill: #ffffff;
+      }
+      .photo-sub {
+        font-family: 'Montserrat', system-ui, -apple-system, sans-serif;
+        font-weight: 900;
+        letter-spacing: 4px;
+        fill: #ffffff;
+      }
+    </style>
+  </defs>
+
+  <!-- Cyan Blue Circular Background -->
+  <circle cx="250" cy="250" r="235" fill="#009fe3" />
+
+  <!-- Camera Outline in White -->
+  <path
+    d="M 125 240
+       L 135 340
+       C 137 360, 155 365, 175 365
+       L 200 360
+       M 132 250
+       C 130 235, 140 230, 160 230
+       L 175 225
+       C 185 225, 195 200, 205 180
+       C 210 170, 225 170, 240 170
+       L 280 180
+       C 290 185, 305 188, 335 180
+       L 350 178
+       M 320 170
+       L 325 160
+       C 326 156, 335 155, 345 155
+       L 355 155
+       C 362 155, 365 158, 362 165
+       L 358 178
+       M 195 365
+       L 395 150"
+    fill="none"
+    stroke="#ffffff"
+    stroke-width="11"
+    stroke-linecap="round"
+    stroke-linejoin="round"
+  />
+
+  <!-- Camera Left Body Loop -->
+  <path
+    d="M 130 240
+       C 120 250, 122 345, 145 358
+       C 160 365, 185 363, 215 350"
+    fill="none"
+    stroke="#ffffff"
+    stroke-width="11"
+    stroke-linecap="round"
+  />
+
+  <!-- "Ombo" Artistic Typography -->
+  <!-- 'O' styled as Lens Aperture Ring -->
+  <g id="ombo-text">
+    <!-- Big Stylized 'O' Outer -->
+    <path
+      d="M 230 205
+         C 195 205, 170 235, 170 275
+         C 170 315, 198 335, 235 330
+         C 265 325, 280 295, 280 260
+         C 280 225, 260 205, 230 205 Z"
+      fill="none"
+      stroke="#ffffff"
+      stroke-width="15"
+    />
+    <!-- Lens inner reflection highlight / iris -->
+    <ellipse cx="225" cy="270" rx="14" ry="16" fill="#ffffff" />
+    <path
+      d="M 205 245
+         C 195 260, 195 285, 208 300"
+      fill="none"
+      stroke="#009fe3"
+      stroke-width="7"
+      stroke-linecap="round"
+    />
+
+    <!-- 'm', 'b', 'o' Cursive Letters -->
+    <text
+      x="248"
+      y="305"
+      class="ombo-title"
+      font-size="120"
+      letter-spacing="-2"
+    >mbo</text>
+  </g>
+
+  <!-- "PHOTOGRAPHY" Subtitle in Crisp Bold Caps -->
+  <text
+    x="250"
+    y="358"
+    class="photo-sub"
+    font-size="28"
+    text-anchor="middle"
+  >PHOTOGRAPHY</text>
+</svg>
